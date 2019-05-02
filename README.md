@@ -1,6 +1,6 @@
 # cachestat.bt
 
-cachestat.bt is a bpftrace script that retrieces from the kernel the pagecache miss and hits.  It will print to the terminal at a designated interval the number of hits and misses during the interval, percentage of hits and a time stamp.
+cachestat.bt is a bpftrace script that retrieves from the kernel the pagecache miss and hits.  It will print to the terminal at a designated interval the number of hits and misses during the interval, percentage of hits and a time stamp.
 
 Usage
 ./cachestat.bt <interval in seconds> <nmber of intervals to present>
